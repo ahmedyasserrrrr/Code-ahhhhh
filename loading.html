@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مثال على الشعار</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-white bg-white shadow-sm  ">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" style="  color: #0A284E;"  onclick="redirectToPath()" ><img src="images/WhatsApp Image 2024-06-27 at 3.08.26 AM.jpeg" width="75px" alt=""> </a>
+            <button class="navbar-toggler "  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <img class="navbar-toggler-icon " src="" alt="">
+            </button>
+            <div class="collapse navbar-collapse   " id="navbarNav">
+                <ul class="navbar-nav clas me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="قصتنا.html" onclick="redirectToPath()"    style=" color: #0A284E;" >قصتنا</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="transiton.html"  onclick="redirectToPath()"  style=" color: #0A284E;" >منطقه العميل</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="test.html" onclick="redirectToPath()" tabindex="-1" aria-disabled="true"    style=" color: #0A284E;" >الدعم الفني</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href=" https://ahmedyasserrrrr.github.io/homeeee/" onclick="redirectToPath()" tabindex="-1" aria-disabled="true"    style=" color: #0A284E;" > منتجاتنا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="https://ahmedyasserrrrr.github.io/old-" tabindex="-1" aria-disabled="true     "  onclick="redirectToPath()" style=" color: #0A284E;" >انضم الينا</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <style>
+        .nav-container {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #0A284E;
+            border-radius: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
+        .nav-item {
+            color: #fff;
+            font-size: 16px;
+            text-decoration: none;
+            padding: 12px 24px;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        
+        .nav-item:hover {
+            background-color: orange;
+        }
+    
+        .nav-item i {
+            margin-right: 8px;
+        }
+    
+        .close-btn {
+            display: none;
+        }
+    
+        @media only screen and (max-width: 600px) {
+            .nav-item {
+                padding: 10px 20px;
+            }
+    
+            .close-btn {
+                display: inline-block;
+                float: right;
+                padding: 10px;
+                cursor: pointer;
+            }
+        }
+    </style>
+    
+</body>
+</html>
